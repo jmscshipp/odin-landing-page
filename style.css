@@ -23,6 +23,12 @@ a
     color: #E5E7EB;
 }
 
+p
+{
+    margin: 0;
+    padding: 0;
+}
+
 .introduction
 {
     height: 360px;
@@ -40,6 +46,24 @@ a
     display: flex;
     justify-content: space-between;
     margin: 10;
+}
+
+.header-info
+{
+    display: flex;
+}
+
+.left-header-info
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.box
+{
+    width: 500px;
+    height: 200px;
+    background-color: #E5E7EB;
 }
 
 .information
