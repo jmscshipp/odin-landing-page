@@ -29,6 +29,17 @@ p
     padding: 0;
 }
 
+.flex-vertical
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-horizontal
+{
+    display: flex;
+}
+
 .introduction
 {
     height: 360px;
@@ -74,26 +85,34 @@ p
     font-weight: 900;
     color: #1F2937;
     text-align: center;
-    display: flex;
-    flex-direction: column;
     align-items: center;
     padding: 20px 0px;
 }
 
 .info-box-container
 {
+    width: 150px;
+    height: 200px;
     font-size: 18px;
     font-weight: normal;
     display: flex;
-    justify-content: flex-start;
-    gap: 20px;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.extra-container
+{
+    gap: 50px;
 }
 
 .info-box
 {
-    width: 50px;
-    height: 50x;
-    border: 10px solid blue;
+    display: flex;
+    height: 150px;
+    width: 150px;
+    flex: none;
+    border: 5px solid #3882F6;
+    border-radius: 10%;
 }
 
 .quote-area
