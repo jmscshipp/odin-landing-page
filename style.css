@@ -117,9 +117,29 @@ p
 
 .quote-area
 {
-    height: 288px;
+    height: 388px;
     background-color: #E5E7EB;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-text
+{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    width: 780px;
+}
+
+.quote-author
+{
+    font-size: 24px;
+    font-weight: 900;
+    color: #1F2937;
+    display: flex;
+    align-self: flex-end;
 }
 
 .sign-up-area
