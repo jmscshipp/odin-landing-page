@@ -147,6 +147,21 @@ p
 {
     height: 216px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-box
+{
+    color: white;
+    background-color: #3882F6;
+    width: 900px;
+    height: 100px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
 }
 
 .footer
