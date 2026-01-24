@@ -171,3 +171,20 @@ p
     color: #F9FAF8;
     display: flex;
 }
+
+.button
+{
+    background-color: #3882F6;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    height: 30px;
+    width: 120px;
+    border-radius: 8px;
+    border-style: none;
+}
+
+.white-border
+{
+    border: 2px solid white;
+}
