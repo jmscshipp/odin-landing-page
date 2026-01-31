@@ -23,7 +23,7 @@ a
     color: #E5E7EB;
 }
 
-p
+p, h3
 {
     margin: 0;
     padding: 0;
@@ -42,14 +42,21 @@ p
 
 .introduction
 {
-    height: 360px;
+    height: 450px;
     background-color: #1F2937;
     color: #F9FAF8;
-    font-size: 24px;
-    font-weight: bold;
+    font-size: 48px;
+    font-weight: 900;
     display:flex;
     flex-direction: column;
     padding: 10px 200px;
+}
+
+.regular-text
+{
+    font-size: 18px;
+    font-weight: normal;
+    color: #E5E7EB;
 }
 
 .header
@@ -69,6 +76,8 @@ p
 {
     display: flex;
     flex-direction: column;
+    gap: 10px;
+    width: 400px;
 }
 
 .box
@@ -80,13 +89,13 @@ p
 
 .information
 {
-    height: 288px;
+    height: 340px;
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
     text-align: center;
     align-items: center;
-    padding: 20px 0px;
+    padding: 40px 0px;
 }
 
 .info-box-container
@@ -102,6 +111,7 @@ p
 
 .extra-container
 {
+    padding: 40px 0px;
     gap: 50px;
 }
 
@@ -130,7 +140,7 @@ p
     font-size: 36px;
     color: #1F2937;
     font-weight: 300;
-    width: 780px;
+    width: 760px;
 }
 
 .quote-author
@@ -138,7 +148,7 @@ p
     font-size: 24px;
     font-weight: 900;
     color: #1F2937;
-    width: 780px;
+    width: 760px;
     display: flex;
     justify-content: flex-end;
 }
@@ -170,6 +180,8 @@ p
     background-color: #1F2937;
     color: #F9FAF8;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .button
