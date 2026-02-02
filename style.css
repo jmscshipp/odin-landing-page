@@ -1,9 +1,12 @@
+/**
+{
+    border: 2px solid red;
+}*/
+
 body
 {
     font-family: Roboto;
     margin: 0;
-    display:flex;
-    flex-direction: column;
 }
 
 ul
@@ -47,10 +50,7 @@ p, h3
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 900;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px 200px;
+    padding: 10px 0px;
 }
 
 .regular-text
@@ -60,19 +60,25 @@ p, h3
     color: #E5E7EB;
 }
 
+.container
+{
+    display: flex;
+    justify-content: center;
+    padding: 0% 15%;
+}
+
 .header
 {
-    width: 1000px;
+    flex: 1;
     display: flex;
     justify-content: space-between;
-    margin: 10px;
     color: #F9FAF8;
     font-size: 24px;
 }
 
 .header-info
 {
-    width: 1000px;
+    flex: 1;
     display: flex;
     justify-content: space-between;
     margin: 100px 0px;
@@ -86,13 +92,10 @@ p, h3
     width: 400px;
 }
 
-.box
+img
 {
     width: 500px;
-    background-color: grey;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 250px;
 }
 
 .information
